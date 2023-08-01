@@ -1,6 +1,6 @@
-The chat gpt information link and information is below
+The chat gpt information link and information is below:
 
-https://chat.openai.com/?model=text-davinci-002-render-sha
+placed the link in a text file
 
 To achieve the functionality of sending the collected data to your email address and also allowing users to enter their email address to receive a confirmation email, we need a backend server to handle email sending. Since this involves server-side processing, it cannot be done solely with HTML, CSS, and JavaScript in the front end. However, I can provide you with a high-level overview of how you can set up the backend and use JavaScript to make an API call to it.
 
