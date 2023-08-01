@@ -27,7 +27,7 @@ farmerForm.addEventListener('submit', function(event) {
 
 function sendDataToServer(data) {
     // Replace the URL below with the URL of your backend server
-    const apiUrl = 'https://your-backend-server.com/api/submit-data';
+    const apiUrl = 'https://glittery-kringle-a64027.netlify.app/api/submit-data';
 
     fetch(apiUrl, {
             method: 'POST',
@@ -52,7 +52,7 @@ function sendDataToServer(data) {
 
 function sendConfirmationEmail(userEmail) {
     // Replace the URL below with the URL of your backend server's email sending endpoint
-    const emailApiUrl = 'https://your-backend-server.com/api/send-email';
+    const emailApiUrl = 'https://glittery-kringle-a64027.netlify.app/api/send-email';
 
     const emailData = {
         to: userEmail,
